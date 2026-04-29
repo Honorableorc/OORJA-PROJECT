@@ -1,0 +1,5 @@
+Target,Best_Model,R2,MAE,RMSE
+Pack_Current_A,LinearRegression,0.9704,1.7219,4.1909
+Pack_Voltage_V,RandomForest,0.9999,0.0172,0.029
+Pack_Power_kW,LinearRegression,0.9525,0.2684,0.3816
+WhPerKm_w30,GradientBoosting,0.7606,5.3256,8.8043

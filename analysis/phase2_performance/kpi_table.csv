@@ -1,0 +1,4 @@
+Session,Duration_min,Distance_km,Top_Speed_Kmph,Avg_Speed_Moving,Max_Accel_m_s2,Max_Decel_m_s2,Peak_Power_kW,Cruise_Power_kW,Peak_Current_A,Min_Voltage_V,Energy_Used_Wh,Wh_per_km,SoC_Drop_pct
+1,7.7,0.13,25,9.18,0.83,-0.69,4.86,0.78,61.6,78.94,24.0,184.6,0.35
+2,31.87,16.55,80,42.0,8.61,-10.97,7.59,2.89,98.4,74.27,1406.5,85.0,21.6
+3,24.02,20.02,80,53.26,10.42,-10.0,7.76,3.91,108.3,71.41,1591.7,79.5,25.66

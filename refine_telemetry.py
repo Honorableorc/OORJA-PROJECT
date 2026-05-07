@@ -26,7 +26,7 @@ import pandas as pd
 SRC = Path(r"d:\OORJA_PROJECT\oorja_telemetry.csv")
 DST = Path(r"d:\OORJA_PROJECT\oorja_telemetry_refined.csv")
 
-# ---------- Datasheet constants (XLEX 72V / 85Ah, Samsung INR21700-53G) ----------
+# ---------- Datasheet constants  ----------
 V_FULL           = 84.0     # max charge voltage (100% SoC)
 V_NOMINAL        = 72.0     # nominal pack voltage
 V_EMPTY          = 50.0     # min discharge voltage (0% SoC, BMS cutoff)

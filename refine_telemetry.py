@@ -12,8 +12,7 @@ Pipeline:
       g. Smooth jittery signals with a small rolling mean.
 
   STAGE 2 - Add modelled Pack_Current_A and Pack_Voltage_V columns
-      Uses the XLEX 72V / 85Ah EV pack datasheet (Samsung INR21700-53G,
-      20S16P, ~16 mOhm/cell -> ~20 mOhm pack).
+    
       Voltage is kept around the 72 V nominal operating range, matching
       typical electric-kart race behaviour reported in EV-kart references.
 
@@ -51,9 +50,7 @@ MAD_THRESHOLD    = 6.0      # reject samples > 6 * MAD from local median
 SMOOTH_WINDOW    = 3        # final smoothing window
 
 
-# ---------- NMC OCV table (per cell, then x20 for pack) ----------
-# Shape matches typical Samsung INR21700-53G / NMC chemistry: steep at the
-# extremes, flat plateau through the mid-SoC operating band.
+
 _OCV_SOC = np.array([0.00, 0.05, 0.10, 0.20, 0.30, 0.40, 0.50,
                      0.60, 0.70, 0.80, 0.90, 1.00])
 _OCV_CELL = np.array([2.80, 3.30, 3.40, 3.55, 3.62, 3.66, 3.70,

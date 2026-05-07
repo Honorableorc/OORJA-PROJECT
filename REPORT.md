@@ -1,6 +1,6 @@
   # OORJA Electric Kart — Telemetry Analysis Report
 
-**Vehicle**: Electric kart with XLEX 72 V / 85 Ah battery pack (Samsung INR21700-53G, 20S16P)
+**Vehicle**: Electric kart with  72 V / 85 Ah 
 **Data**: 3,671 samples at 1 Hz (≈63.6 min total) across 3 driving sessions
 **Methodology**: 6-phase data-science pipeline — refinement → preprocessing → EDA → performance audit → unsupervised ML → supervised ML → time-series forecasting → recommendations
 

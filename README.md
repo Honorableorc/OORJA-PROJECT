@@ -2,7 +2,7 @@
 
 End-to-end data-science pipeline for the **OORJA electric kart**, applied to 1 Hz onboard telemetry over 3 driving sessions (~64 minutes, 36.7 km, 3,671 samples).
 
-The project takes raw sensor logs (speed, RPM, IMU, LoRa timestamps), refines them, synthesises a battery model from the XLEX 72 V / 85 Ah pack datasheet (Samsung INR21700-53G cells, 20S16P), engineers features, runs unsupervised + supervised + time-series ML, and produces a full report with concrete performance recommendations.
+The project takes raw sensor logs (speed, RPM, IMU, LoRa timestamps), refines them, synthesises a battery model from the  72 V / 85 Ah , engineers features, runs unsupervised + supervised + time-series ML, and produces a full report with concrete performance recommendations.
 
 ---
 
@@ -90,7 +90,7 @@ See [REPORT.md](REPORT.md) for the full analysis and [RECOMMENDATIONS.md](RECOMM
 
 ## Notes
 
-- **Battery datasheets** (XLEX 72 V / 80 Ah and 85 Ah PDFs) are excluded from this repo for IP reasons. The synthesised battery model is fully documented inside [refine_telemetry.py](refine_telemetry.py).
+- **Battery datasheets** ( 72 V / 80 Ah and 85 Ah PDFs) are excluded from this repo for IP reasons. The synthesised battery model is fully documented inside [refine_telemetry.py](refine_telemetry.py).
 - **Voltage and current** in the dataset are *modelled* from the datasheet, not measured. See [RECOMMENDATIONS.md § D1](RECOMMENDATIONS.md) — adding real V/I sensors is the highest-priority data-quality upgrade.
 - **Data is at 1 Hz** so IMU vibration content is aliased; see [§ D2](RECOMMENDATIONS.md) for the recommended upgrade.
 

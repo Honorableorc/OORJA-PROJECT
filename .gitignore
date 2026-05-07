@@ -20,8 +20,7 @@ ENV/
 .DS_Store
 Thumbs.db
 
-# Claude Code session metadata (local-only)
-.claude/
+
 
 # Battery manufacturer datasheets (third-party / proprietary)
 # Remove these lines if you have permission to redistribute.
